@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Rubik', sans-serif;
+}
+
+body{
+    background-color: #16151A;
+    background-image: url(./assets/FUNDO.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.box-main{
+    width: 100vw;
+    height: 100vh;
+}
+
+.box{
+    width: 470px;
+    display: block;
+    align-content: center;
+}
+
+.container{
+    border-radius: 18px;
+    background-color: #1D1C21;
+}
+
+.btn{
+    height: 46px;
+}
+
+.form-control{
+    height: 46px;
+}
+
+.form-check-input{
+    background-color: #1D1C21;
+}
+
+.btn-primary{
+    background-color: #3AF1C3;
+    color: #16151A;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.btn-primary:hover{
+    background-color: #00af87;
+}
+
+.texto-h1{
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+
+}
+
+.link-success{
+    color: #00af87;
+}
